@@ -1,0 +1,10 @@
+# API:-
+NewsAPI -> https://newsapi.org
+Gemini API -> https://ai.google.dev/gemini-api/docs/api-key
+# How to Use:-
+   1. while listining... shows on the terminal you have to speak jarvis ,then jarvis will speak yeh. 
+   2 .After that you can give command
+# keywords:-
+  1. open[To open websites like Google ,facebook , Github ,Fast, Youtube, Mail]
+  2. play[To play music from musicLibrary]
+Also you can chat with it as GPT-4
