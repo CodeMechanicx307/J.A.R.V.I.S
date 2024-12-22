@@ -5,19 +5,15 @@ import pyttsx3
 import musicLibrary
 import requests
 import google.generativeai as genai
-from gtts import gTTS
 import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "1b1fcbcbb0f746e784675aa44b3259a8"
+newsapi = "YOUR_NEWS_API"
 
-def speak_old(text):
+def speak(text):
     engine.say(text)
     engine.runAndWait()
-def speak(text):
-    tts= gTTS(text)
-    tts.save('text.mp3')
 
     # Initialize Pygame mixer
     pygame.mixer.init()
@@ -37,7 +33,7 @@ def speak(text):
 
 def aiprocess(command):
 
-    genai.configure(api_key="AIzaSyBNTdvKRd7V7mtGAS6YssWu1b1T-XN1ad4")
+    genai.configure(api_key="YOUR_GEMINI_DEVELOPER_API")
     model = genai.GenerativeModel("gemini-1.5-flash")
     chat = model.start_chat(
         history=[
