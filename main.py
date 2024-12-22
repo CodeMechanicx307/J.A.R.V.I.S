@@ -15,22 +15,6 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-    # Initialize Pygame mixer
-    pygame.mixer.init()
-
-    # Load the MP3 file
-    pygame.mixer.music.load('text.mp3')
-
-    # Play the MP3 file
-    pygame.mixer.music.play()
-
-    # Keep the program running until the music stops playing
-    while pygame.mixer.music.get_busy():
-        pygame.time.Clock().tick(10)
-    pygame.mixer.music.unload()
-    os.remove("text.mp3")
-
-
 def aiprocess(command):
 
     genai.configure(api_key="YOUR_GEMINI_DEVELOPER_API")
