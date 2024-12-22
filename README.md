@@ -6,11 +6,11 @@ Jarvis: Your Ultimate Desktop AI Assistant  Meet Jarvis, your cutting-edge deskt
   2. Write your News API oh the news api variable
   3. Add your favorite Musics on the musicLibrary.py file with name and youtube link
 # Library and Modules :-
-  pygame
-  speech_recognition as sr
-  webbrowser
-  pyttsx3
-  musicLibrary
-  requests
-  google.generativeai as genai
-  os
+  pygame ,
+  speech_recognition as sr ,
+  webbrowser ,
+  pyttsx3 ,
+  musicLibrary ,
+  requests ,
+  google.generativeai as genai , 
+  os 
